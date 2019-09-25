@@ -1342,6 +1342,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   overflow: hidden;
 }
 
+.team-item .team-img img {
+  margin-bottom: 80px;
+  width: 100%;
+  max-height: auto;
+}
 .team-item .team-overlay {
   height: 100%;
   position: absolute;
@@ -1362,28 +1367,28 @@ a.back-to-top:hover, a.back-to-top:focus {
   right: 15px;
 }
 
-.team-item .overlay-social-icon .social-icons {
+.team-item .social-icons {
   padding-left: 0;
-  -webkit-transform: translateY(-30px);
+/*  -webkit-transform: translateY(-30px);
   -moz-transform: translateY(-30px);
   transform: translateY(-30px);
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
-}
+*/}
 
-.team-item .overlay-social-icon .social-icons li {
+.team-item .social-icons li {
   display: inline-block;
   margin: 0 4px;
 }
 
-.team-item .overlay-social-icon .social-icons li a {
+.team-item .social-icons li a {
   letter-spacing: 0px;
   outline: 0 !important;
 }
 
-.team-item .overlay-social-icon .social-icons li a i {
+.team-item .social-icons li a i {
   font-size: 20px;
   color: #fff;
   width: 36px;
@@ -1398,15 +1403,15 @@ a.back-to-top:hover, a.back-to-top:focus {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.team-item .overlay-social-icon .social-icons li a:hover .fa-facebook {
+.team-item .social-icons li a:hover .fa-facebook {
   background: #3B5998;
 }
 
-.team-item .overlay-social-icon .social-icons li a:hover .fa-twitter {
+.team-item .social-icons li a:hover .fa-twitter {
   background: #00aced;
 }
 
-.team-item .overlay-social-icon .social-icons li a:hover .fa-instagram {
+.team-item .social-icons li a:hover .fa-instagram {
   background: #fb3958;
 }
 
@@ -1414,17 +1419,19 @@ a.back-to-top:hover, a.back-to-top:focus {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  right: 10px;
   padding: 15px 20px;
   background: #f3f4f3;
   text-align: left;
 }
 
-.team-item .info-text h3 {
+.team-item .info-text h3, .team-item .info-text h4 {
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 5px;
 }
+.team-item .info-text h4 { font-size: 14px; }
 
 .team-item .info-text h3 a {
   color: #212121;
