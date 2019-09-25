@@ -2251,3 +2251,13 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
   border-color: #fff;
 }
+
+#coc {
+  padding: 20px 0;
+}
+#coc p { margin-bottom: 10px; }
+#coc h1, #coc h2, #coc h3 { color: #ccc; margin: 20px 0 10px; }
+#coc h1 { font-size: 20px; }
+#coc h2, #coc h3 { font-size: 16px; }
+
+
