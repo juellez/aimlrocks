@@ -25,6 +25,13 @@ h1, h2, h3, h4 {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+
 a {
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -63,6 +70,7 @@ ul.list li {
 
 span.highlight { background-color: #e2ff077d; }
 span.email { color: #E91E63; }
+.footer-area p.credits, p.credits a, p.credits a:hover, p.credits a:visited { color: #999; }
 
 .hero-heading {
   font-size: 40px;
@@ -286,6 +294,7 @@ button:focus {
 .mt-30 {
   margin-top: 30px;
 }
+
 
 /* ScrollToTop */
 a.back-to-top {
@@ -991,6 +1000,9 @@ a.back-to-top:hover, a.back-to-top:focus {
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
 }
 
+#sponsors .spnsors-logo img {
+  max-height: 60px;
+}
 /* Schedule Area */
 #schedules {
   background: #f3f4f3;
@@ -1054,6 +1066,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-weight: 400;
   text-transform: capitalize;
 }
+
+.schedule .schedule-tab-title ul.location { padding: 20px 20px; }
 
 .schedule .schedule-tab-content .tab-content {
   box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
