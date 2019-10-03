@@ -983,6 +983,17 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #f3f4f3;
 }
 
+#sponsors .community-sponsors {
+  margin-top: 40px;
+}
+
+/* only small tablets */
+@media (min-width: 768px) {
+  #sponsors p {
+    margin: auto 25%;
+  }
+}
+
 #sponsors .spnsors-logo {
   text-align: center;
   border-radius: 4px;
@@ -1003,6 +1014,20 @@ a.back-to-top:hover, a.back-to-top:focus {
 #sponsors .spnsors-logo img {
   max-height: 60px;
 }
+
+#sponsors .sponsrs-icon {
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+  padding: 0;
+  display: inline-block;
+  border: 1px solid #ddd;
+  background: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
 /* Schedule Area */
 #schedules {
   background: #f3f4f3;
